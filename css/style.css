@@ -1,0 +1,714 @@
+/* Main Styling */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Arimo', sans-serif;
+}
+a,li,figcaption{
+    font-family:'Raleway', sans-serif;
+    font-size: 23px;
+    letter-spacing: 2.0px;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+
+}
+/* header styling  */
+header{
+    background-color: #0e0e0e;
+    display: flex;
+    align-items: center;
+    height: 125px;
+    padding: 0px 25px;
+}
+header div{
+    height: 135px;
+    width: auto;
+    flex-grow: 1;
+}
+header img{
+    height: 100%;
+    width: auto;
+}
+menu{
+    display: flex;
+    margin-bottom: 0px;
+    list-style: none;
+   
+}
+menu li{
+    border-right: solid 2px #f4f4f4;
+    padding: 0px 10px;
+    text-decoration: none;
+
+}
+menu li a:hover{
+    color: rgb(187, 46, 46);
+    font-weight: 550;
+}
+menu li a{
+    color:yellow;
+    text-decoration: none;
+}    
+menu li:last-of-type{
+    border-right: none;
+}
+.title{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/arleen-wiese-mpkfUEcFK1M-unsplash.jpg");
+    background-size: 50%;
+}
+.title h2:hover{
+    text-shadow: 3px 3px 3px rgba(209, 212, 18, 0.5); 
+}
+#Introduction{
+    background-image: url("../img/simon-weisser-aMwF49DNEK0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+#Introduction h2 {
+    color: #f4f4f4;
+}
+/* first part of the song */
+#firstPart{
+    background-image: url("../img/caroline-hernandez-TMpQ5R9mbOc-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 5%;
+    
+}
+#firstPart p{
+    padding: 2%;
+    letter-spacing: 2.0px;
+    line-height: 1.6;
+    background-color: rgba(255,255,255, .4);
+    font-size: 23px;
+  
+}
+#firstPart p:hover{
+    border:solid 5px rgb(177, 83, 124);
+}
+#firstLetter{
+    font-size: 35px;
+    color: #9c2648;
+    font-weight: 900;
+}
+#Fp{
+    color: rgb(5, 149, 22);
+    text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+}
+#Fp1{
+    color: rgb(48, 15, 193);
+    text-shadow: 1px 1px 2px rgba(15, 6, 61, 0.9); 
+}
+#Fp2{
+    color: rgb(227, 73, 73);
+    text-shadow: 1px 1px 2px rgba(15, 6, 61, 0.9); 
+}
+#Fp3{
+    color: rgb(210, 21, 235);
+    text-shadow: 1px 1px 2px rgba(6, 15, 6, 0.9); 
+}
+#Fp4{
+    color: rgb(203, 21, 8);
+    text-shadow: 1px 1px 2px rgba(4, 28, 12, 0.9); 
+}
+#Fp5{
+    color: rgb(226, 226, 25);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#Fp6{
+    color: rgb(193, 93, 18);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+    /* Second part of the song */
+#secondPart{
+    background-image: url("../img/janko-ferlic-9Mj9FTg1zIo-unsplash.jpg");
+    background-size: left;
+    background-position: center;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 5%;
+}
+#secondPart p{
+    background-color: rgba(0,0,0, .5);
+    padding: 2%;
+    color: #f4f4f4;
+    letter-spacing: 1.8px;
+    line-height: 1.3;
+    margin-top: 10%;
+    font-size: 23px;
+    
+}
+#secondPart p:hover{
+    border:solid 5px rgb(177, 83, 124);
+}
+#SP{
+    color: rgb(55, 108, 178);
+    text-shadow: 1px 2px 2px rgba(19, 4, 179, 0.9);
+    letter-spacing: 2.0px;
+    line-height: 1.5;     
+}
+#SP1{
+    color: rgb(212, 28, 28);
+    text-shadow: 1px 2px 2px rgba(212, 187, 212, 0.9);
+}
+#SP2{
+    color: rgb(212, 28, 28);
+    text-shadow: 1px 2px 2px rgba(212, 187, 212, 0.9);
+}
+#SP3{
+    color: rgb(18, 228, 106);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#SP4{
+    color: rgb(193, 93, 18);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#SP5{
+    color: rgb(245, 43, 16);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#SP6{
+    color: rgb(226, 226, 25);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#SP7{
+    color: rgb(19, 206, 16);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#SP8{
+    color: rgb(28, 72, 233);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#SP9{
+    color: rgb(86, 111, 201);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#SP10{
+    color: rgb(193, 46, 212);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#SP10{
+    color: rgb(210, 21, 235);
+    text-shadow: 1px 2px 2px rgba(255, 58, 137, 0.9);
+}
+#SP11{
+    color: rgb(245, 43, 16);;
+    text-shadow: 1px 2px 2px rgba(255, 58, 137, 0.9);
+}
+#SP12{
+    color:rgb(226, 226, 25);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#SP13{
+    color:rgb(19, 206, 16);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#SP14{
+    color:rgb(28, 72, 233);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#SP15{
+    color:rgb(86, 111, 201);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#SP16{
+    color:rgb(210, 21, 235);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+/* Third part of the song */
+#thirdPart{
+    background-image: url("../img/steven-erixon-IzwvpT7gGgU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    align-items:center;
+    justify-content: right;
+    padding-right: 8%;
+}
+#thirdPart p{
+    background-color: rgba(0,0,0, .5);
+    padding: 2%;
+    color: #f4f4f4;
+    letter-spacing: 1.8px;
+    line-height: 1.6;
+}
+#thirdPart p:hover{
+    border: solid 5px rgb(177, 83, 124);
+}
+
+#TP{
+    color: rgb(188, 116, 15);
+    text-shadow: 1px 2px 2px rgba(229, 23, 37, 0.9);  
+}
+#TP1{
+    color: rgb(212, 28, 28);
+    text-shadow: 1px 2px 2px rgba(212, 187, 212, 0.9);
+}
+#TP2{
+    color: rgb(18, 228, 106);
+text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#TP3{
+    color: rgb(193, 93, 18);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#TP4{
+    color: rgb(245, 43, 16);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#TP5{
+    color: rgb(226, 226, 25);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#TP6{
+    color: rgb(19, 206, 16);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#TP7{
+    color: rgb(28, 72, 233);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#TP8{
+    color: rgb(188, 116, 15);
+    text-shadow: 1px 2px 2px rgba(229, 23, 37, 0.9);  
+}
+#TP9{
+    color: rgb(212, 28, 28);
+    text-shadow: 1px 2px 2px rgba(212, 187, 212, 0.9);
+}
+#TP10{
+    color: rgb(18, 228, 106);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#TP11{
+    color: rgb(186, 40, 199);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+/* Four part of the song */
+#FourPart{
+    background-image: url("../img/limor-zellermayer-qHYC8ajXLB0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: left ;
+    padding: 5%;
+}
+#FourPart p{
+    background-color: rgba(255,255,255, .4);
+    padding: 2%;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+}
+#FourPart p:hover{
+    border:solid 5px rgb(177, 83, 124);
+
+}
+#FP0{
+    color: rgb(168, 14, 168);
+    text-shadow: 1px 1px 2px rgba(71, 13, 79, 0.9);  
+}
+#FP1{
+    color: rgb(212, 28, 28);
+    text-shadow: 1px 2px 2px rgba(28, 22, 28, 0.9);
+}
+#FP2{
+    color: rgb(18, 228, 106);
+    text-shadow: 1px 2px 2px rgba(21, 11, 21, 0.9);
+}
+#FP3{
+    color: rgb(193, 93, 18);
+    text-shadow: 1px 2px 2px rgba(62, 21, 62, 0.9);
+}
+#FP4{
+    color: rgb(245, 43, 16);
+    text-shadow: 1px 2px 2px rgba(173, 39, 173, 0.9);
+}
+#FP5{
+    color: rgb(226, 226, 25);
+    text-shadow: 1px 2px 2px rgba(5, 1, 5, 0.9);
+}
+#FP6{
+    color: rgb(19, 206, 16);
+    text-shadow: 1px 2px 2px rgba(6, 4, 6, 0.9);
+}
+#FP7{
+    color: rgb(28, 72, 233);
+    text-shadow: 1px 2px 2px rgba(7, 2, 7, 0.9);
+}
+
+#fin{
+    font-size: 35px;
+    color: #9c2648;
+    font-weight: 900;
+}
+/* guitar part in the song */
+#guitar{
+    background-image: url("../img/ben-collins-Fr2iwKpsi-Y-unsplash.jpg");
+    background-size: 40%;
+    background-position:bottom;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+#guitarFlash{
+    background-image: url("../img/Guitarra\ 2.jpg");
+    background-size: 35%;
+    background-position:top;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    
+}
+@font-face {
+    /*our custom name form the font */
+    font-family: lessonFont;
+    /*link our font file */
+    src: url("../font/PunkTypewriter.otf");
+}
+.title h2{
+    font-size: 99px;
+    font-family: lessonFont;
+}
+#by{
+    font-size: 50px;
+    margin-left: 15%;
+    
+}
+/* footer styling */
+#footer{
+    background-color: #0e0e0e;
+    text-align: center;
+    justify-content: center;
+    height: 125px;
+    padding: 20px ;
+}
+#footer h1 a{
+    color: yellow;
+    font-size: 1.0em;
+      
+}
+#footer h1 a:hover{
+    color: red;
+}
+
+/* adding colours at the sentences and words */
+
+#lastSentence{
+    letter-spacing: 3.5px;
+    line-height: 2.5;
+    font-size:1.5em;
+    text-shadow: 2px 2px 6px rgba(14, 99, 89, 0.9);  
+}
+/* rainbow colours */
+#fin0{
+    color: rgb(237, 51, 51);
+    font-size: 1.7em;
+    text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+}
+#fin2{
+    color: rgb(206, 104, 26);
+    font-size: 1.6em;
+    text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+}
+#fin3{
+    color: rgb(176, 193, 25);
+    font-size: 1.4em;
+    text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+}
+#fin4{
+    color: rgb(17, 193, 55);
+    font-size: 1.4em;
+    text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+}
+#fin5{
+    color: rgb(12, 12, 150);
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+}
+#fin6{
+    color: rgb(112, 7, 86);
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+}
+#fin7{
+    color: rgb(198, 60, 60);
+    text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+    font-size: 1.0em; 
+}
+#fin8{
+   color: rgb(206, 104, 26);
+   font-size: 1.0em;
+   text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+}
+#fin9{
+    color: rgb(176, 193, 25);
+    font-size: 1.0em;
+    text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+}
+#fin10{
+    color: rgb(17, 193, 55);
+    font-size: 0.9em;
+    text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+}
+#fin11{
+    color: rgb(12, 12, 150);
+    font-size: 0.9em;
+    text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+}
+#fin12{
+    color: rgb(112, 7, 86);
+    font-size: 0.9em;
+    text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+}
+#fin13{
+    color: rgb(198, 60, 60);
+    font-size: 0.9em;
+    text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+}
+#fin14{
+    color: rgb(206, 104, 26);
+    font-size: 0.9em;
+    text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+ }
+ #fin15{
+    color: rgb(176, 193, 25);
+    font-size: 0.8em;
+    text-shadow: 1px 1px 2px rgba(9, 9, 9, 0.9); 
+}
+
+/* General Hover */
+#Fp1:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 3.0px;
+}
+#Fp2:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 3.0px;
+}
+#Fp3:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 3.0px;
+}
+#Fp4:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 3.0px;
+}
+#Fp5:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 3.0px;
+}
+#Fp6:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 3.0px;
+}
+#Fp7:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 3.0px;
+}
+#SP4:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#SP5:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#SP6:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+
+#SP7:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#SP8:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#SP9:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#SP10:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#SP11:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#SP12:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#SP13:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#SP14:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#SP15:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#SP16:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#TP:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#TP1:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#TP2:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#TP3:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#TP4:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#TP5:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#TP6:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#TP7:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#TP8:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#TP9:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#TP11:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#TP10:hover{
+    text-decoration: underline;
+    font-weight: 650;
+    letter-spacing: 3.0px;
+}
+#FP0:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 3.0px;
+}
+#FP1:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 3.0px;
+}
+#FP2:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 3.0px;
+}
+#FP3:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 3.0px;
+}
+#FP4:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 3.0px;
+}
+#FP5:hover{
+    text-decoration: underline;
+    font-weight: 700;
+    letter-spacing: 3.0px;
+}
+#FP6:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 3.0px;
+}
+#FP7:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 3.0px;
+}
+#lastSentence:hover{
+    text-decoration: underline;
+    
+}
+#fin:hover{
+    text-decoration: underline;
+    font-weight: 1000;
+    letter-spacing: 5.0px;
+}
